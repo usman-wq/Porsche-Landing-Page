@@ -1,0 +1,21 @@
+var mySwiper = new Swiper('.swiper-container', {
+  slidesPerView: 2,
+  spaceBetween: 5,
+  observer: true,
+  observerParents: true,
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+})
